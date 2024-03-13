@@ -235,3 +235,49 @@ section {
 .btn-color-2:hover {
   border: solid rgb(255, 255, 255) 0.1rem;
 }
+
+/* about section */
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: solid rgb(53, 53, 53) 0.1rem;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section-pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
