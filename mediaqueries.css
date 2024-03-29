@@ -71,7 +71,7 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers, .contact-info-upper-container, .btn-container {
+  .about-containers, .contact-info-upper-container, .btn-container, .about-section-text {
     flex-wrap: wrap;
   }
   .contact-info-container {
@@ -104,5 +104,15 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .about-section-text {
+    text-wrap: wrap;
+    max-width: 400px;
+  }
+  .about-title {
+    font-size: 1.25rem;
+  }
+  #about .section-text-p1 {
+    margin-top: 4rem;
   }
 }
